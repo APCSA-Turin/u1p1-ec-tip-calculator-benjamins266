@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ExtraCredit {
 
-
     public static String calculateTip(int people, int percent, double cost, String items) {
         StringBuilder result = new StringBuilder();
 
@@ -43,7 +42,6 @@ public class ExtraCredit {
         result.append("Items ordered:\n");
         result.append(items);
 
-
         return result.toString();
     }
                                    
@@ -78,9 +76,6 @@ public class ExtraCredit {
                 items+= "\n";
             }
         }
-    
-        
-    
                              
         System.out.println(calculateTip(people,percent,cost,items));
     }
