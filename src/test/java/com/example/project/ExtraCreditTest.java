@@ -24,6 +24,4 @@ public class ExtraCreditTest {
         String studentOutput = calculator.calculateTip(people,percent, cost, items);
         assertEquals(expectedOutput,studentOutput);
     }
-    
-    
 }
